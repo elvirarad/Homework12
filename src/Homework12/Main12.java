@@ -9,6 +9,9 @@ public class Main12 {
         Author aelitaAuthor = new Author("Алексей", "Толстой");
         Book aelita = new Book("Аэлита", 1995, aelitaAuthor);
 
+        /*if (warAndPeace.getName().equals(null) && warAndPeaceAuthor.getSurname().equals(null)){
+            throw new IllegalArgumentException("Неуказано наименование книги");
+        }*/
         System.out.println("'" + warAndPeace.getName() + "' " + warAndPeace.getYearPublication() + " года издания" + " автор " + warAndPeaceAuthor.getName() + " "+ warAndPeaceAuthor.getSurname());
         System.out.println("'" + aelita.getName() + "' " + aelita.getYearPublication() + " года издания"  + " автор " + aelitaAuthor.getName() + " "+ aelitaAuthor.getSurname());
 
