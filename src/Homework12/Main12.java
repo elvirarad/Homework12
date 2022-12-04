@@ -20,6 +20,6 @@ public class Main12 {
        // System.out.println("'" + aelita.getName() + "' " + aelita.getYearPublication() + " года издания"  + " автор " + aelitaAuthor.getName() + " "+ aelitaAuthor.getSurname());
 
         aelita.setYearPublication(2021);
-        System.out.println("Книга: '" + aelita.getName() + "' " + aelita.getYearPublication() + " года издания"  + " автор " + aelitaAuthor.getName() + " "+ aelitaAuthor.getSurname());
+        System.out.println(aelita);
     }
 }
